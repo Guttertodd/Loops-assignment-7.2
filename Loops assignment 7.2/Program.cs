@@ -4,7 +4,19 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int number, start, end;
+            Console.WriteLine("I will now count down from 10!");
+            start = 10;
+            end = 0;
+        
+            for (int i = start; i >= end; i -= -2)
+            {
+                Console.Write(i);
+            }
+            Console.ReadLine();
+            
         }
-    }
-}
+            }
+        }
+    
+
