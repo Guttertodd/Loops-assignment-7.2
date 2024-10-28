@@ -4,17 +4,27 @@
     {
         static void Main(string[] args)
         {
-            int number, start, end;
-            Console.WriteLine("I will now count down from 10!");
-            start = 10;
-            end = 0;
-        
-            for (int i = start; i >= end; i -= -2)
+
+            //Console.WriteLine("I will now count down from 10!");
+
+
+
+            //for (int i = 10; i >= 1; i = i - 1)
+            //{
+            //    Console.WriteLine(i + ". " );
+            //}
+            //Console.WriteLine("Blast Off");
+
+            Console.WriteLine();
+
+
+            for (int y = -10; y <= 10; y =y + 2)
             {
-                Console.Write(i);
+                Console.WriteLine(y + ". ");
             }
-            Console.ReadLine();
-            
+          
+                
+            }
         }
             }
         }
