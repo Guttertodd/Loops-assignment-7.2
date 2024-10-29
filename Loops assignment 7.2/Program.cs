@@ -1,4 +1,6 @@
-﻿namespace Loops_assignment_7._2
+﻿using System.Security.Principal;
+
+namespace Loops_assignment_7._2
 {
     internal class Program
     {
@@ -25,19 +27,28 @@
             //}
 
 
-            string aldworth, name;
+            string name;
             Console.WriteLine("Give me a name and i'll type it 10 times!");
             name = Console.ReadLine();
-            aldworth = "5";
-          
+            
+
             for (int i = 1; i <= 10; i = i + 1)
-               
-            {
-                Console.WriteLine(i + ". " + name);              
+            { 
+                Console.WriteLine(i + ". " + name);
+      
             }
-            if (name == "Aldworth") 
+            
             {
-                Console.WriteLine(i <= 5);
+                if (name == "aldworth")
+                {
+                    for (int i2 = 1; i2 <= 5; i2 = i2 + 1)
+
+                        Console.WriteLine(i2 + ". " + "aldworth");
+                }
+            
+                {
+
+                }
             }
             }
         }
